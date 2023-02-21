@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en"
+    <head>
+ <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TPSGQ56');</script>
+    <!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="style.css" />
+
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+        <!--<title>Dashboard Sidebar Menu</title>--> 
+    </head>
+    <body>
+        <div class="loader_bg">
+    <div class="loader"></div>
+</div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
+        
+        
+        <nav class="sidebar close">
+            <header>
+                <div class="image-text">
+                    <span class="image">
+                        <img src="https://i.ibb.co/XZZNLDt/logo.png" alt="">
+                    </span>
+                     <title>AnimeDuo</title>
+                    <link rel="icon" herf="https://i.ibb.co/XZZNLDt/logo.png" type="image/png">
+                    <div class="text logo-text">
+                        <div class="title">AnimeDuo</div>
+                    </div>
+                </div>
+    
+                <i class='bx bx-chevron-right toggle'></i>
+            </header>
+    
+            <div class="menu-bar">
+                <div class="menu">
+
+                    </li>
+    
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="./index.html">
+                                <i class='bx bx-home-alt icon' ></i>
+                                <span class="text nav-text">Home</span>
+                            </a>
+                        </li>
+    
+                        <li class="nav-link">
+                            <a href="./games.html">
+                                <i class='bx bx-joystick icon' ></i>
+                                <span class="text nav-text">Games</span>
+                            </a>
+                        </li>
+                         <li class="nav-link" id="altLinks">
+                        <a href="" onclick="window.open('https://bit.ly/3t2y6Hv', '_blank')">
+                            <i class='bx bx-link-alt icon' ></i>
+                            <span class="text nav-text">Alt Links</span>
+                        </a>
+                    </li>
+                        <li class="nav-link">
+                            <a href="./settings.html">
+                                <i class='bx bx-cog icon' ></i>
+                                <span class="text nav-text">Settings</span>
+                            </a>
+                        </div>
+                    </li>
+    
+        </nav>
+    
+        <section class="home">
+            <div class="text">Games</div>
+            <div class="title">  <font color="#ffffff">
+Remember to only play these games in your free time! I am not accountable for you misusing the site!</div>
+        </section>
+        
+       <button onclick="submit(./games.html)">
+           <img src="https://i.ibb.co/FXHFhy7/emerald.png" alt="emerald" border="0>
+</button>
+                                              
+          <script src="index.js"></script>
+    
+        <script>
+            const body = document.querySelector('body'),
+          sidebar = body.querySelector('nav'),
+          toggle = body.querySelector(".toggle"),
+          modeText = body.querySelector(".mode-text");
+    
+    
+    toggle.addEventListener("click" , () =>{
+        sidebar.classList.toggle("close");
+    })
+    
+    searchBtn.addEventListener("click" , () =>{
+        sidebar.classList.remove("close");
+    })
+    
+        </script>
+    
+    </body>
+    </html>
